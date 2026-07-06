@@ -959,7 +959,7 @@
   </li>
 </ol>
 
-<h3 id="622-la-autojuncion">6.2.2. <span style="color: #4f81bd"><strong>La autojunción</strong></span></h3>
+<h3 id="622-la-autojuncion">6.2.2. <span style="color: #4f81bd">La autojunción</span></h3>
 <p>Queremos conocer los libros que tienen un precio de venta superior al del libro «Using SQL»:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-45-1" name="__codelineno-45-1" href="#__codelineno-45-1"></a><span class="k">SQL</span><span class="o">&gt;</span><span class="k">select</span><span class="w"> </span><span class="n">a</span><span class="p">.</span><span class="n">titre</span><span class="w"> </span><span class="k">from</span><span class="w"> </span><span class="n">articles</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="w"> </span><span class="n">articles</span><span class="w"> </span><span class="n">b</span>
 <a id="__codelineno-45-2" name="__codelineno-45-2" href="#__codelineno-45-2"></a><span class="w">  </span><span class="k">where</span><span class="w"> </span><span class="n">b</span><span class="p">.</span><span class="n">titre</span><span class="o">=</span><span class="s1">&#39;Using SQL&#39;</span>
@@ -1090,7 +1090,7 @@
 <a id="__codelineno-62-4" name="__codelineno-62-4" href="#__codelineno-62-4"></a><span class="w">    </span><span class="k">group</span><span class="w"> </span><span class="k">by</span><span class="w"> </span><span class="n">titre</span>
 </code></pre></div>
 <p><img src="images/10000000000000C500000067A841E54B.png" width="158" height="82" style="width:4.168cm;height:2.178cm;" alt="Image" class="odt-zoomable" data-zoom-src="images/10000000000000C500000067A841E54B.png" /></p>
-<h3 id="625-consultas-correlacionadas">6.2.5. <span style="color: #4f81bd"><strong>Consultas correlacionadas</strong></span></h3>
+<h3 id="625-consultas-correlacionadas">6.2.5. <span style="color: #4f81bd">Consultas correlacionadas</span></h3>
 <p>En el caso de las consultas anidadas, hay una consulta principal (la más externa) y una consulta secundaria (la más interna). La consulta principal solo se evalúa una vez que la consulta secundaria se ha evaluado por completo.</p>
 <p>Las consultas correlacionadas tienen la misma sintaxis, con la siguiente diferencia: la consulta hija realiza una unión con la tabla de la consulta madre. En este caso, el conjunto formado por la consulta madre y la consulta hija se evalúa repetidamente para cada fila de la tabla madre.</p>
 <p><strong>Ejemplo</strong></p>
